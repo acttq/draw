@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-19T06:59:42.187Z" agent="5.0 (Windows)" etag="E0z-SmN12QrFewLPupNC" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-19T07:04:07.731Z" agent="5.0 (Windows)" etag="hI3nkEsy-OOuGVR6Ivcm" version="17.4.5" type="github">
   <diagram id="jumqYtK21HVVnxhFovv-" name="第 1 页">
     <mxGraphModel dx="1065" dy="479" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -18,6 +18,36 @@
         </mxCell>
         <mxCell id="8CNHfyw67QvqExkJ17C1-5" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;public class Exam4 {&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; public static void main(String[] args) {&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; int i = 1;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; String str = &quot;hello&quot;;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Integer num = 2;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; int[] arr = {1,2,3,4,5};&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; MyData my = new MyData();&lt;br&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; change(i,str,num,arr,my);&lt;br&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; System.out.println(&quot;i =&quot; + i);//1&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; System.out.println(&quot;str =&quot; + str);//hello&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; System.out.println(&quot;num = &quot; + num);//2&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; System.out.println(&quot;arr = &quot; + Arrays.toString(arr));//{2,2,3,4,5}&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; System.out.println(&quot;my.a =&quot; + my.a);//11&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; }&lt;br&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; public static void change(int j, String s, Integer n, int[] a, MyData m){&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; j += 1;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; s += &quot;world&quot;;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; n += 1;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; a[0] += 1;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; m.a += 1;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; }&lt;br&gt;}&lt;br&gt;&lt;br&gt;class MyData{&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; int a = 10;&lt;br&gt;}&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontFamily=Helvetica;" vertex="1" parent="1">
           <mxGeometry x="218" y="454" width="446" height="677" as="geometry" />
+        </mxCell>
+        <mxCell id="8CNHfyw67QvqExkJ17C1-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;strokeColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="218" y="269" width="120" height="166" as="geometry" />
+        </mxCell>
+        <mxCell id="8CNHfyw67QvqExkJ17C1-8" value="main" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="345" y="273" width="40" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="8CNHfyw67QvqExkJ17C1-9" value="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;strokeColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="222" y="398" width="55" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="8CNHfyw67QvqExkJ17C1-10" value="int i" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="172" y="408" width="32" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="8CNHfyw67QvqExkJ17C1-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;strokeColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="222" y="356" width="55" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="8CNHfyw67QvqExkJ17C1-13" value="&lt;div&gt;String str&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="152" y="366" width="66" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="8CNHfyw67QvqExkJ17C1-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="431" y="321" width="324" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="8CNHfyw67QvqExkJ17C1-15" value="方法区" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="703" y="291" width="52" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="8CNHfyw67QvqExkJ17C1-16" value="静态区" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="689" y="335" width="52" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="8CNHfyw67QvqExkJ17C1-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="574" y="461" width="188" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
