@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2022-06-10T09:00:03.486Z" agent="5.0 (Windows)" version="17.4.5" etag="SX_rOHCJC-b6Zc1aRy6Y" type="github"><diagram id="gOCs9G8yZbeJZupKCtmQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-10T09:12:24.585Z" agent="5.0 (Windows)" etag="BBPRdVbWUQo8sF8PN4rY" version="17.4.5" type="github">
+  <diagram id="gOCs9G8yZbeJZupKCtmQ" name="第 1 页">
+    <mxGraphModel dx="1278" dy="575" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gkDo0cn3cFIqRiVGT_lP-3" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;fillColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="33" y="246" width="349" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="gkDo0cn3cFIqRiVGT_lP-5" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;fillColor=#00FFFF;" vertex="1" parent="1">
+          <mxGeometry x="491" y="246" width="349" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="gkDo0cn3cFIqRiVGT_lP-6" value="&lt;font style=&quot;font-size: 18px&quot;&gt;主数据库&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="158" y="114" width="82" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gkDo0cn3cFIqRiVGT_lP-7" value="&lt;font style=&quot;font-size: 18px&quot;&gt;从数据库&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="617" y="117" width="82" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gkDo0cn3cFIqRiVGT_lP-8" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;主从复制过程&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;1.主数据库的增删改被写进binlog&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2.从数据库开启一个I/O线程，连接主数据库，读取binlog中的内容&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;3.主库开启一个binlog dump线程，把binlog中的内容发送到从数据库中&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;4.从数据库读取到binlog的内容后，将这些内容写入自己准备的relay log文件中&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;5.从库创建一个SQL线程来读取relay log里面的内容，从Exec_Master_Log_Pos位置开始执行读取到的更新时间，将更新内容写入到从数据库中&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="788" y="153" width="634" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="gkDo0cn3cFIqRiVGT_lP-9" value="&lt;div&gt;主从复制原理：&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="200" y="542" width="136" height="48" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
